@@ -1,2 +1,10 @@
 tasks:
   - init: .gitpod/bootstrap.sh
+github:
+  prebuilds:
+    addCheck: true
+    addBadge: true
+    addLabel: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
